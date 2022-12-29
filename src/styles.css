@@ -1,62 +1,60 @@
-
-body{
-    font-family: Arial, sans-serif;
+body {
+  font-family: Arial, sans-serif;
 }
 h1 {
   font-size: 24px;
   font-weight: bold;
-  color: rgb(135,135,135);
+  color: rgb(135, 135, 135);
   line-height: 28px;
   padding-left: 25px;
 }
 p {
-    color: rgb(135,135,135);
-    font-size: 16px;
-    font-weight: 300;
-    height: 19px;
-    line-height: 1;
-    padding-left: 25px;
-
+  color: rgb(135, 135, 135);
+  font-size: 16px;
+  font-weight: 300;
+  height: 19px;
+  line-height: 1;
+  padding-left: 25px;
 }
 form {
   padding-top: 20px;
   margin-left: 30px;
 }
 ul {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 li {
-    color: rgb(135,135,135);
-    font-size: 16px;
-    font-weight: 300;
-    height: 19px;
-    line-height: 1;
+  color: rgb(135, 135, 135);
+  font-size: 16px;
+  font-weight: 300;
+  height: 19px;
+  line-height: 1;
   list-style: none;
 }
 .frame {
-    border: 1px solid grey;
-    padding: 10px 20px 20px 20px;
-    margin: 20px;
-    max-width: 600px auto;
-    border-radius: 10px;
+  border: 1px solid grey;
+  padding: 10px 20px 20px 20px;
+  margin: 20px;
+  max-width: 600px auto;
+  border-radius: 10px;
 }
 .search-form {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 .weather-icon {
-    margin-bottom: 20px;
-    padding-right: 10px;
+  margin-bottom: 20px;
+  padding-right: 10px;
 }
 
 .temperature {
   font-size: 64px;
   font-weight: 400;
- line-height: 1;
+  line-height: 1;
 }
 .units {
-    position: relative;
-    top: -34px;
+  position: relative;
+  top: -34px;
 }
 .forecast {
   padding-top: 20px;
@@ -64,4 +62,7 @@ li {
 }
 .hightemp {
   font-weight: bold;
+}
+.opensrccode {
+text-align: center;
 }
